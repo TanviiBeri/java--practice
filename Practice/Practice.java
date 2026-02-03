@@ -1,3 +1,5 @@
+package Practice;
+
 public class Practice {
     public static void main(String[] args) {
         System.out.println("Rule 1: Java is an object-oriented programming language.");

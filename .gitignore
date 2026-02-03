@@ -1,1 +1,10 @@
+# Ignore compiled class files
 *.class
+bin/
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# OS junk
+.DS_Store
+*.log

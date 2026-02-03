@@ -1,3 +1,4 @@
+package Inheritance;
 class Account {
     int balance = 1000;
 

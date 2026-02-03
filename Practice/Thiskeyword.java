@@ -1,3 +1,5 @@
+package Practice;
+
 class Student {
 
     // Instance variable
