@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.AbstractClassExample;
 
 abstract class Coffee{
     abstract void drink();
@@ -14,9 +14,6 @@ public class Abstract{
             void drink(){
                 System.out.println("Coffee is a liquid.");
             }
-             void like(){
-                System.out.println("I like coffee");
-        }
 
     };
     c.drink();
