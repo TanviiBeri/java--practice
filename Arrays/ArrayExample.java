@@ -22,5 +22,6 @@ public class ArrayExample {
             for(char c1: wow){
             System.out.print(c1);
     }
-}
+    
+    }
 }

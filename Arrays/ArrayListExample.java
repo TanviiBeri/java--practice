@@ -1,0 +1,24 @@
+package Arrays;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("Apple");
+        fruits.add("Cherry");
+        fruits.add("Guava");
+
+        System.out.println("Fruits: " + fruits);
+
+        fruits.remove("Cherry");
+
+        System.out.println("After removing Cherry: " + fruits);
+
+        System.out.println("Size: " + fruits.size());
+        System.out.println("Contains Apple? " + fruits.contains("Apple"));
+    }
+}
