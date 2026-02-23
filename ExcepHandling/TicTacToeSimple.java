@@ -65,7 +65,7 @@ public class TicTacToeSimple {
                     System.out.println("---|---|---");
                     System.out.println(" " + board[6] + " | " + board[7] + " | " + board[8]);
                     System.out.println();
-                    System.out.println("Player " + winner + " wins! 🎉");
+                    System.out.println("Player " + winner + " wins!");
                     break; // End game
                 }
 
