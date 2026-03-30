@@ -33,6 +33,6 @@ class Executive extends Manager {
 public class PayrollSystem {
     public static void main(String[] args) {
         Executive exec = new Executive("Alice", 10000);
-        System.out.printf("Total Salary: %.2f%n", exec.calculateSalary());
+        System.out.printf("Total Salary : %.2f%n", exec.calculateSalary());
     }
 }
