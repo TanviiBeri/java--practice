@@ -69,6 +69,6 @@ public class SmartHomeDemo {
         r.connectToWifi();
 
         // TC 3: Uncomment → Compile-time error
-        // r.turnOn(); ❌ not allowed
+        // r.turnOn();  not allowed
     }
 }
