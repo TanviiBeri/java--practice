@@ -1,3 +1,5 @@
+package sockets;
+
 import java.net.*;
 
 public class Server {
@@ -7,3 +9,4 @@ public class Server {
         Socket socket = server.accept();
         System.out.println("Client connected!");
     }
+} 
